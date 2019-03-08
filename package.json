@@ -13,7 +13,7 @@
   "keywords": [
     "react-native",
     "qrcode",
-    "qrcodeview",
+    "qrcodeview"
   ],
   "devDependencies": {
     "react": "^16.2.0",
