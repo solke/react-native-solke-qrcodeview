@@ -10,8 +10,17 @@
   "keywords": [
     "react-native"
   ],
+  "keywords": [
+    "react-native",
+    "qrcode",
+    "qrcodeview",
+  ],
+  "devDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.57.8"
+  },
   "author": "",
-  "license": "",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
