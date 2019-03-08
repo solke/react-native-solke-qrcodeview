@@ -37,9 +37,25 @@
 
 ## Usage
 ```javascript
-import RNQrcodeview from 'react-native-qrcodeview';
+import QRCodeView from 'react-native-qrcodeview';
 
 // TODO: What to do with the module?
-RNQrcodeview;
+render() {
+        const options = {
+            value:'www.baidu.comaa',
+            size:400,
+            backgroundColor:'#6495ED',
+            foregroundColor:'#32CD32'
+        }
+    return (
+        <View style={styles.container}>
+            <View style={{backgroundColor:'white',marginTop:20}}>
+                <QRCodeView 
+                    qrOptions={options} 
+                    style={{width:400,height:400}}/>
+            </View>
+        </View>
+    );
+  }
 ```
   
