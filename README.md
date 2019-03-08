@@ -41,12 +41,12 @@ import QRCodeView from 'react-native-qrcodeview';
 
 // TODO: What to do with the module?
 render() {
-        const options = {
-            value:'www.baidu.comaa',
-            size:400,
-            backgroundColor:'#6495ED',
-            foregroundColor:'#32CD32'
-        }
+    const options = {
+        value:'www.xxx.com',
+        size:400,
+        backgroundColor:'#6495ED',
+        foregroundColor:'#32CD32'
+    }
     return (
         <View style={styles.container}>
             <View style={{backgroundColor:'white',marginTop:20}}>
